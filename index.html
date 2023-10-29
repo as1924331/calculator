@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js"></script>
+    <title>calculator</title>
+</head>
+<body>
+    <h1>Wellcome to A calculator</h1>
+    <section id="my_calc">
+        <input type="number" id="first" placeholder="Enter the the first  no." required>
+        <select id="select">
+            <option value="none">none</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">X</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="second" placeholder="Enter the the second no." required>
+        <button id="btn" onclick="clac()">calculate</button>
+        <input type="number" readonly name="res" id="res" placeholder="Here your answer will appear">
+    </section>
+</body>
+</html>
